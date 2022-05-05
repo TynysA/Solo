@@ -1,0 +1,53 @@
+.intro {
+  position: relative;
+}
+.login {
+  position: absolute;
+  right: 30px;
+  top: 55px;
+  width: 25px;
+  height: 15px;
+  background-color: aqua;
+  border-color: aqua;
+}
+
+header {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.header__title {
+  color: #aaa;
+  font-size: 36px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.header__title span {
+  color: #313131;
+}
+
+.header {
+  font-size: 24px;
+  padding: 19px 0px;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-around;
+  font-size: 29px;
+  background-color: blueviolet;
+  padding: 18px 30px;
+}
+
+.header__link {
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s linear;
+}
+
+.header__link:hover {
+  color: burlywood;
+  transform: scale(1.2);
+}
